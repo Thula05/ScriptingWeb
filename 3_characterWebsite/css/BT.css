@@ -50,6 +50,7 @@ body {
   background: #007d6a;
   background: linear-gradient(180deg, rgba(0, 125, 106, 1) 33%, rgba(87, 111, 199, 1) 93%, rgba(237, 83, 83, 1) 100%);
   background-image: url("/images/726634.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
