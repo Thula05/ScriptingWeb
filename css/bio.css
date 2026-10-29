@@ -1,0 +1,201 @@
+header {
+
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  min-height: 250px;
+
+  background-color: rgb(91, 91, 235);
+
+
+}
+
+.color1 {
+
+  background-color: #396a82;
+  padding: 45px;
+
+
+}
+
+.textcolor1 {
+
+  color: #d89e00;
+  font-size: 50px;
+
+}
+
+.textcolor2 {
+
+
+  color: #FFF6E6;
+  font-size: 35px;
+
+
+}
+
+
+.textcolor3 {
+
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.textcolor4 {
+
+
+  color: #FFF6E6;
+  font-size: 35px;
+  background-color: #285279;
+
+  text-align: center;
+
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  width: 95%;
+  padding: 50px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+
+
+}
+
+.color2 {
+
+  background-color: #23394b;
+  -webkit-box-shadow: 1px 1px 21px 5px #000000;
+  box-shadow: 1px 1px 21px 5px #000000;
+}
+
+.headerBox {
+
+  background-color: #28527900;
+
+  text-align: center;
+
+  padding-bottom: 80px;
+  padding-top: 80px;
+
+  color: rgb(255, 255, 255);
+
+  width: 100%;
+  padding: 100px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+nav {
+
+  position: sticky;
+  top: 0;
+}
+
+.art {
+
+  background-color: aqua;
+}
+
+img {
+  max-width: 100%;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+
+
+}
+
+
+
+.artworkBlock {
+
+  background-color: #7aa6b67e;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 20px;
+  width: 30%;
+  padding: 30px;
+  -webkit-box-shadow: 1px 1px 21px 5px #000000;
+  box-shadow: 1px 1px 21px 5px #000000;
+}
+
+.mainArtwork {
+
+  background-color: #111f2a81;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 150px;
+  color: #ffffff;
+  width: 30%;
+  padding: 50px;
+  -webkit-box-shadow: 1px 1px 21px 5px #000000;
+  box-shadow: 1px 1px 21px 5px #000000;
+
+}
+
+footer {
+
+  background-color: #7aa6b6;
+  color: white;
+  text-align: left;
+
+}
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-regular {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jaro {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
