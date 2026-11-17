@@ -1,0 +1,130 @@
+
+header {
+
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #ffffff;
+  border: 5px solid #800000;
+border-radius: 5px;
+ -webkit-text-stroke: 1px rgb(142, 0, 0);
+
+  
+}
+
+.textred{
+  color: #9B1C1C;
+}
+.textgray{
+  color: #e6e4e2;
+}
+.red{
+
+background-color: #800000;
+
+}
+.mutedred{
+  background-color: #9B1C1C;
+}
+.blue{
+  
+  background-color: blue;
+}
+
+
+.gray{
+  background-color: #F5F5F5;
+
+}
+
+
+i {
+  font-size: 1.5rem;
+  margin: auto 10px;
+}
+
+
+
+.bodyimg {
+  max-width: 100%;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+border: 5px solid #800000;
+border-radius: 40px;
+
+}
+
+.imgtag {
+  max-width: 100%;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+}
+.bodytag{
+  border: 5px solid #f2f2f2;
+border-radius: 40px 0px 0px 9px;
+}
+
+.charis-sil-regular {
+  font-family: "Charis SIL", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charis-sil-bold {
+  font-family: "Charis SIL", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.charis-sil-regular-italic {
+  font-family: "Charis SIL", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.charis-sil-bold-italic {
+  font-family: "Charis SIL", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.average-sans-regular {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+   
+  }
+
+
+
+  .overlay-text {
+    position: absolute;
+    inset: 0; /* Covers the entire image */
+    background: rgba(0, 0, 0, 0.5); /* Optional dark tint for readability */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    pointer-events: none;
+    
+    
+    /* Fade setup */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .image-container:hover .overlay-text {
+    opacity: 1;
+  }
+
